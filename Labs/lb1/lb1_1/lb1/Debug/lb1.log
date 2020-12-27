@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Atlasio\Desktop\Документы универ\Информатика\1 Методичка\lb1_1\lb1\main.cpp(10): warning C4305: инициализация: усечение из "double" в "float"
+  lb1.vcxproj -> C:\Users\Atlasio\Desktop\Документы универ\Информатика\1 Методичка\lb1_1\Debug\lb1.exe
