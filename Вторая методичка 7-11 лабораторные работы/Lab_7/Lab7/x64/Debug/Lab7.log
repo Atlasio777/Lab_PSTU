@@ -1,0 +1,13 @@
+﻿  Lab7.cpp
+C:\Users\Atlasio\Desktop\Документы универ\Информатика\2 Методичка\Lab_7\Lab7\Lab7.cpp(45): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Atlasio\Desktop\Документы универ\Информатика\2 Методичка\Lab_7\Lab7\Lab7.cpp(83): warning C4244: инициализация: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+  C:\Users\Atlasio\Desktop\Документы универ\Информатика\2 Методичка\Lab_7\Lab7\Lab7.cpp(187): note: выполняется компиляция ссылки на экземпляр шаблон функции "void sortTemplate<double>(T [],int)"
+          with
+          [
+              T=double
+          ]
+  Lab7.vcxproj -> C:\Users\Atlasio\Desktop\Документы универ\Информатика\2 Методичка\Lab_7\x64\Debug\Lab7.exe
