@@ -8,7 +8,7 @@ int main() {
 
     fin = fopen("D:\\file.txt", "r");
 
-    //Начинаем считывать фаил и печатаем его
+
     printf("---FILE after load---\n");
     int count = 0;
     while (1) {
@@ -24,12 +24,12 @@ int main() {
             break;
         }
     }
-    //Закончили считывать
+
 
     fclose(fin);
 
-    int weight; //Указанный вес для поиска и удаления, можно менять
-    int height; //Указанный рост для поиска и удаления, можно менять
+    int weight;
+    int height;
 
     printf("\nInput height: ");
     scanf("%d", &height);
@@ -42,9 +42,7 @@ int main() {
     int currentRecord = 1;
     int recordByHeight = 0;
     int recordByWeight = 0;
-    int currentWeight = 0;//67
-
-    //Считываем фаил и пытаемся найти запись с указанными свойствами
+    int currentWeight = 0;
     while (1) {
         if (NULL != fgets(str, 100, fin)) {
             if (count == 4) {
@@ -93,9 +91,7 @@ int main() {
         isNeedDeleted = recordByHeight;
     }
 
-    //Закончили поиск нужной записи
 
-     //
     FILE* temp;
     if (isNeedDeleted) {
         fin = fopen("D:\\file.txt", "r");

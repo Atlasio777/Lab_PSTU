@@ -36,7 +36,7 @@ int main() {
     return 0;
 }
 
-//Функция инициализации списка, создает первый элемент и возвращает ссылку на него
+
 struct point* init(int data) {
     struct point* firstPoint;
     firstPoint = (struct point*)malloc(sizeof(struct point));
@@ -46,7 +46,7 @@ struct point* init(int data) {
     return(firstPoint);
 }
 
-//Функция добавления нового узла в начало списка, возвращает ссылку на созданный узел
+
 struct point* addToHead(point* head, int data) {
     struct point* newElement = (struct point*)malloc(sizeof(point));
     (*newElement).data = data;
@@ -56,7 +56,7 @@ struct point* addToHead(point* head, int data) {
     return newElement;
 }
 
-//Функция добавления нового узла в конец списка, возвращает ссылку на созданный узел
+
 struct point* addToTail(point* tail, int data) {
     struct point* newElement = (struct point*)malloc(sizeof(point));
     (*newElement).data = data;
@@ -97,7 +97,7 @@ void deleteEvenNumbers(point** head, point** tail) {
     }
 }
 
-//Функция печати списка
+
 void printList(point* head) {
     cout << "List = {";
     point* current = head;
@@ -112,7 +112,7 @@ void printList(point* head) {
     cout << "}\n";
 }
 
-//Функция удаления списка
+
 void deleteList(point* head) {
     point* current = head;
     while (current != NULL) {

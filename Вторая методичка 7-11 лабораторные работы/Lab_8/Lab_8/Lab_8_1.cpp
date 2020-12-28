@@ -3,8 +3,8 @@
 using namespace std;
 
 struct point {
-    char data; //информационное поле
-    point* next; //адресное поле
+    char data;
+    point* next;
 };
 
 struct point* init(char data);
@@ -37,7 +37,7 @@ int main() {
     return 0;
 }
 
-//Функция инициализации списка, создает первый элемент и возвращает ссылку на него
+
 struct point* init(char data) {
     struct point* firstPoint;
     firstPoint = (struct point*)malloc(sizeof(struct point));
@@ -46,7 +46,7 @@ struct point* init(char data) {
     return(firstPoint);
 }
 
-//Функция добавления нового узла в начало списка, возвращает ссылку на созданный узел
+
 struct point* addToHead(point *head, char data) {
     struct point *newElement = (struct point*)malloc(sizeof(point));
     newElement -> data = data;
@@ -54,7 +54,7 @@ struct point* addToHead(point *head, char data) {
     return newElement;
 }
 
-//Функция добавления нового узла в конец списка, возвращает ссылку на созданный узел
+
 struct point* addToTail(point* tail, char data) {
     struct point* newElement = (struct point*)malloc(sizeof(point));
     newElement->data = data;
@@ -63,7 +63,7 @@ struct point* addToTail(point* tail, char data) {
     return newElement;
 }
 
-//Функция добавления нового узла после узла с определенным значением, ничего не возвращает
+
 void addAfterElement(point *head, char data, char afterdata) {
     struct point* newElement = (struct point*)malloc(sizeof(point));
     (*newElement).data = data;
@@ -78,7 +78,7 @@ void addAfterElement(point *head, char data, char afterdata) {
     }
 }
 
-//Функция печати списка
+
 void printList(point *head) {
     cout << "List = {";
     point* current = head;
@@ -93,7 +93,7 @@ void printList(point *head) {
     cout << "}\n";
 }
 
-//Функция удаления списка
+
 void deleteList(point *head) {
     point* current = head;
     while (current != NULL) {
