@@ -1,0 +1,3 @@
+﻿  Main.cpp
+C:\Users\Atlasio\Documents\GitHub\Lab_PSTU\Основы алгоритмизации и программирования\Первый семестр #expectation\lb10\Project3\Main.cpp(14): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Project3.vcxproj -> C:\Users\Atlasio\Documents\GitHub\Lab_PSTU\Основы алгоритмизации и программирования\Первый семестр #expectation\lb10\Debug\Project3.exe
