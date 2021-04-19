@@ -1,2 +1,0 @@
-D:\Работа\Matrix\Matrix\Debug\Matrix.vcxprojAssemblyReference.cache
-E:\chrome\Matrix\Matrix\Debug\Matrix.vcxprojAssemblyReference.cache
