@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\z6_v5\vector.h(95,13): warning C4018: >=: несоответствие типов со знаком и без знака
+E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\z6_v5\main.cpp(77,20): warning C4018: <: несоответствие типов со знаком и без знака
+  z6_v5.vcxproj -> E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\Debug\z6_v5.exe

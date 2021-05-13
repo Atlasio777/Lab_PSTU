@@ -1,0 +1,15 @@
+﻿  main.cpp
+e:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\z7_v5\main.cpp(53,20): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\z7_v5\vector.h(56,13): warning C4018: >=: несоответствие типов со знаком и без знака
+e:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\z7_v5\vector.h(54): message : во время компиляции функции-члена класс шаблон "templType classVector<templType>::operator [](const int &)"
+          with
+          [
+              templType=int
+          ]
+e:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\z7_v5\main.cpp(41): message : выполняется компиляция ссылки на экземпляр шаблон функции "templType classVector<templType>::operator [](const int &)"
+          with
+          [
+              templType=int
+          ]
+e:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\z7_v5\main.cpp(17): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "classVector<int>"
+  z7_v5.vcxproj -> E:\programming\group\C++\Consule\2021\04\Иван Отинов\z7_v5\Debug\z7_v5.exe

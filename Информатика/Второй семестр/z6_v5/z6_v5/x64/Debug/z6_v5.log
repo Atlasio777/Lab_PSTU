@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\z6_v5\main.cpp(26,22): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\z6_v5\main.cpp(38,45): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+  z6_v5.vcxproj -> E:\programming\group\C++\Consule\2021\04\Иван Отинов\z6_v5\x64\Debug\z6_v5.exe
