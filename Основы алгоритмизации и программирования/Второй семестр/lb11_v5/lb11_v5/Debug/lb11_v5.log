@@ -1,0 +1,13 @@
+﻿  main.cpp
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(127,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(133,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(169,15): warning C4244: аргумент: преобразование "float" в "const _Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(213,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(216,22): warning C4018: <: несоответствие типов со знаком и без знака
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(23,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\lb11_v5\main.cpp(173): message : выполняется компиляция ссылки на экземпляр шаблон функции "void removeFrom<int>(std::vector<int,std::allocator<int>> &)"
+  lb11_v5.vcxproj -> E:\programming\group\C++\console\04\Иван Отинов\lb11_v5\Debug\lb11_v5.exe

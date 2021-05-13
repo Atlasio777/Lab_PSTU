@@ -1,0 +1,3 @@
+﻿  main.cpp
+E:\programming\group\C++\console\04\Иван Отинов\lb13_v5\lb13_v5\main.cpp(189,16): warning C4244: аргумент: преобразование "float" в "const int", возможна потеря данных
+  lb13_v5.vcxproj -> E:\programming\group\C++\console\04\Иван Отинов\lb13_v5\Debug\lb13_v5.exe

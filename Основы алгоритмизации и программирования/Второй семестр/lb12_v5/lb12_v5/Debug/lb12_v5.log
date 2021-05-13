@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\programming\group\C++\console\04\Иван Отинов\lb12_v5\lb12_v5\main.cpp(35,14): warning C4244: аргумент: преобразование "int" в "const float", возможна потеря данных
+E:\programming\group\C++\console\04\Иван Отинов\lb12_v5\lb12_v5\main.cpp(109): message : выполняется компиляция ссылки на экземпляр шаблон функции "void searchMin<float>(std::set<float,std::less<float>,std::allocator<float>> &)"
+  lb12_v5.vcxproj -> E:\programming\group\C++\console\04\Иван Отинов\lb12_v5\Debug\lb12_v5.exe
